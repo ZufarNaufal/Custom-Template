@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+body {
+    margin-top: 10em;
+    margin-bottom: 10em;
+    justify-content: center;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #e84545;
+    background-size: cover;
+	font-size: 16px;
+	color: #777;
+	font-family: sans-serif;
+	font-weight: 300;
+}
+
+#login-box{
+	position: relative;
+	margin: 5% auto;
+	height: 500px;
+	width: 600px;
+	background: #fff;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.6);	
+}
+.left-box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 500px;
+}
+h1{
+	margin: 0 0 20px 0;
+	font-weight: 300;
+	font-size: 25px;
+	font-family: Impact;
+}
+input[type="text"],
+input[type="tempat"],
+input[type="password"]{
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 100px;
+	padding: 10px;
+	width: 220px;
+	height: 32px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2s ease;
+}
+input[type="submit"]{
+	margin-bottom: 28px;
+	width: 120px;
+	height: 32px;
+	background: #151019;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0,2s ease;
+	cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+	background: #151019;
+	transition: 0.2s ease;
+}
+.or{
+	position: absolute;
+	top: 250px;
+	left: 660px;
+	width: 40px;
+	height: 40px;
+	background: #efefef;
+	border-radius: 50%;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+	line-height: 40px;
+	text-align: center;
+}
+
+.right-box{
+	position: absolute;
+	top: 0;
+	right: 0;
+	box-sizing: border-box;
+	padding: 50px;
+	width: 300px;
+	height: 500px;
+	background-image: url('https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+	background-size: cover;
+	background-position: center; 
+}
